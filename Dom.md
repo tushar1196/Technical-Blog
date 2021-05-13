@@ -59,4 +59,4 @@
 #### You can do much more, even get old school and fill your scripts with document.write(), a method that was used a lot back in the early days of JavaScript to interact with the pages.
 
 # Reference:-
-#### [flaviocopes.com (https://flaviocopes.com/dom/)
+[flaviocopes.com] (https://flaviocopes.com/dom/)
