@@ -62,5 +62,6 @@
 
 #### You can do much more, even get old school and fill your scripts with document.write(), a method that was used a lot back in the early days of JavaScript to interact with the pages.
 
-# Reference:-
-(https://flaviocopes.com/dom/)
+### <br> Reference:-
+#### (https://flaviocopes.com/dom/)
+#### (https://www.w3schools.com/js/js_htmldom.asp)
