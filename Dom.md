@@ -1,9 +1,12 @@
-# The Document Object Model (DOM)
+# (DOM)
+* ## **D**ocument
+* ## **O**bject
+* ## **M**odel
 #### *The DOM is a W3C (World Wide Web Consortium) standard.*
 
 #### ***The DOM defines a standard for accessing documents***
 
-## DOM stands for Document Object Model, a representation of an HTML document in nodes and objects. Browsers expose an API that you can use to interact with the DOM. This is how modern JavaScript frameworks work - they use the DOM API to tell the browser what to display on the page. <br>
+#### DOM stands for Document Object Model, a representation of an HTML document in nodes and objects. Browsers expose an API that you can use to interact with the DOM. This is how modern JavaScript frameworks work - they use the DOM API to tell the browser what to display on the page. <br>
 #### <br> The DOM is the browser’s internal representation of a web page. When the browser retrieves your HTML from your server, the parser analyzes the structure of your code and creates a model of it. Based on this model, the browser then renders the page on the screen.
 #### <br> Browsers expose an API that you can use to interact with the DOM. This is how modern JavaScript frameworks work - they use the DOM API to tell the browser what to display on the page.
 #### <br> In Single Page Applications, the DOM continuously changes to reflect what appears on the screen, and as a developer you can inspect it using the Browser Developer Tools.
@@ -51,7 +54,7 @@
 
 #### we can get the document title using **document.title**, and the URL using **document.URL**. The referrer is available in **document.referrer**, the domain in **document.domain**.
 
-### From the **document** object we can get the body and head Element nodes
+#### From the **document** object we can get the body and head Element nodes
 * #### document.documentElement: the Document node
 * #### document.body: the body Element node
 * #### document.head: the head Element node
