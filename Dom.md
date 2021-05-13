@@ -1,6 +1,9 @@
-# (DOM)
+# DOM
+
 * ## **D**ocument
+
 * ## **O**bject
+
 * ## **M**odel
 
 ### The document object represents the whole html document.
@@ -9,7 +12,7 @@
 
 ## **How DOM helps?**
 
-#### When html document is loaded in the browser, it becomes a document object. It is the root element that represents the html document. It has properties and methods. By the help of document object, we can add dynamic content to our web page.
+#### When html document is loaded in the browser, it becomes a document object. It is the root element that represents the html document. It has properties and methods. By the help of document object, we can add dynamic content to our web page
 
 ## **Methods for accessing the document object:-**
 
