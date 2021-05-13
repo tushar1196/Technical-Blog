@@ -1,4 +1,8 @@
 # The Document Object Model (DOM)
+#### *The DOM is a W3C (World Wide Web Consortium) standard.*
+
+#### ***The DOM defines a standard for accessing documents***
+
 ## DOM stands for Document Object Model, a representation of an HTML document in nodes and objects. Browsers expose an API that you can use to interact with the DOM. This is how modern JavaScript frameworks work - they use the DOM API to tell the browser what to display on the page. <br>
 #### <br> The DOM is the browser’s internal representation of a web page. When the browser retrieves your HTML from your server, the parser analyzes the structure of your code and creates a model of it. Based on this model, the browser then renders the page on the screen.
 #### <br> Browsers expose an API that you can use to interact with the DOM. This is how modern JavaScript frameworks work - they use the DOM API to tell the browser what to display on the page.
@@ -59,4 +63,4 @@
 #### You can do much more, even get old school and fill your scripts with document.write(), a method that was used a lot back in the early days of JavaScript to interact with the pages.
 
 # Reference:-
-[flaviocopes.com] (https://flaviocopes.com/dom/)
+(https://flaviocopes.com/dom/)
