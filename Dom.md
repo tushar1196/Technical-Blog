@@ -2,69 +2,111 @@
 * ## **D**ocument
 * ## **O**bject
 * ## **M**odel
-#### *The DOM is a W3C (World Wide Web Consortium) standard.*
 
-#### ***The DOM defines a standard for accessing documents***
+### The document object represents the whole html document.
 
-#### DOM stands for Document Object Model, a representation of an HTML document in nodes and objects. Browsers expose an API that you can use to interact with the DOM. This is how modern JavaScript frameworks work - they use the DOM API to tell the browser what to display on the page. <br>
-#### <br> The DOM is the browser’s internal representation of a web page. When the browser retrieves your HTML from your server, the parser analyzes the structure of your code and creates a model of it. Based on this model, the browser then renders the page on the screen.
-#### <br> Browsers expose an API that you can use to interact with the DOM. This is how modern JavaScript frameworks work - they use the DOM API to tell the browser what to display on the page.
-#### <br> In Single Page Applications, the DOM continuously changes to reflect what appears on the screen, and as a developer you can inspect it using the Browser Developer Tools.
-#### <br> The DOM is language-agnostic, and the de-facto standard to access the DOM is by using JavaScript, since it’s the only language that browsers can run.
+#### *According to W3C - "The W3C Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document."*
 
-#### <br> *The DOM is standardized by WHATWG in the DOM Living Standard Spec.*
+## **How DOM helps?**
 
-#### <br> JavaScript can interact with the DOM to:
+#### When html document is loaded in the browser, it becomes a document object. It is the root element that represents the html document. It has properties and methods. By the help of document object, we can add dynamic content to our web page.
 
-* #### inspect the page structure
-* #### access the page metadata and headers
-* #### edit the CSS styling
-* #### attach or remove event listeners
-* #### edit any node in the page
-* #### change any node attribute
+## **Methods for accessing the document object:-**
 
-#### The main 2 objects provided by the DOM API that you you will interact the most with are **document** and **window**.
+## 1. write("String") :-
 
-# The Window object :-
-#### The **window** object represents the window that contains the DOM document.
+### writes the given string on the doucment.
 
-#### <br> **window.document** points to the **document** object loaded in the window.
+## 2.writeln("string") :-
 
-#### <br> Properties and methods of this object can be called without referencing **window** explicitly, because it represents the global object. So, the previous property **window.document** is usually called just **document**.
+### writes the given string on the doucment with newline character at the end.
 
-# The Document object
-### The **document** object represents the DOM tree loaded in a window.
+## 3.getElementById() :-
 
-#### Here is a representation of a portion of the DOM pointing to the head and body tags:
+### returns the element having the given id value.
 
-<p align="center">
-<img src="https://flaviocopes.com/dom/dom-body-head.png" width="500" height="500" border="10"/>
-</p>
+## 4.getElementsByName():-
 
+### returns all the elements having the given name value.
 
-#### <br> The Document object can be accessed from window.document, and since window is the global object, you can use the shortcut document object directly from the browser console, or in your JavaScript code.
+## 5.getElementsByTagName():-
 
-## Most used API methods :-
+### returns all the elements having the given tag name.
 
-* #### document.getElementById()
-* #### document.querySelector()
-* #### document.querySelectorAll()
-* #### document.getElementsByTagName()
-* #### document.getElementsByClassName()
+## 6.getElementsByClassName():-
 
-#### we can get the document title using **document.title**, and the URL using **document.URL**. The referrer is available in **document.referrer**, the domain in **document.domain**.
+### returns all the elements having the given class name.
 
-#### From the **document** object we can get the body and head Element nodes
-* #### document.documentElement: the Document node
-* #### document.body: the body Element node
-* #### document.head: the head Element node
+## **JavaScript helper method:-**
 
-#### We can also get a list of all the element nodes of a particular type, like an HTMLCollection of all the links using **document.links**, all the images using **document.images**, all the forms using **document.forms**.
+### **1. every() Method:** 
 
-#### The document cookies are accessible in **document.cookie**. The last modified date in **document.lastModified**.
+#### This method is used to check if all elements of an array pass the test that is implemented by the passed higher-order function. It iterates over the array and check for all values, if he is a same or not.If any value is not same then it will return false.
 
-#### You can do much more, even get old school and fill your scripts with document.write(), a method that was used a lot back in the early days of JavaScript to interact with the pages.
+### **2. fill() Method:**
 
-### <br> Reference:-
-#### (https://flaviocopes.com/dom/)
-#### (https://www.w3schools.com/js/js_htmldom.asp)
+#### This method fills the array with a static value. It overrides all array values starting from the first element(0th index) and up to the last element(array.length-1 index).
+
+### **3. filter() Method:**
+
+#### This method filters the array that passes the test with the function passed to it. It returns a new array.
+
+### **4. find() Method:**
+ 
+#### This method returns the first element that passes the test with the provided function.
+
+### **5. findIndex() Method:**
+
+#### This method returns the first element index that passes the test with the provided function. It can be used in the case of primitive and in the case of objects.
+
+### **6. flat() Method:**
+
+#### This method is used to flatten the array or concatenate the array with the sub-array elements recursively. //[1, [2, 3, 4], 5] >> [ 1, 2, 3, 4, 5 ]
+
+### **7. forEach() Method:**
+
+#### This is one of the most used method. It is basicallly iterative method. It is used to call or execute the provided/passed function once for each element in an array. It modifies the original array.
+
+### **8. includes() Method:**
+
+#### This method is used to test whether an element is present in an array or not. It checks for a value in primitive and reference in case of an object.
+
+### **9. indexOf() Method:**
+
+#### This method returns the first element index that passes the test with the provided function. It takes a value as input. It should be used in case of primitive. As in the case of objects, it will check its reference. Check is case-sensitive.
+
+### **10. join() Method:**
+
+#### This method concatenates the array values into a string separated by comma(if no separator is provided) or with separator provided.
+
+### **11. lastIndexOf() Method:**
+
+#### It searches for an element in an array and returns the last index of the elements provided in an array. It takes a value as input. It should be used in case of primitive. As in the case of objects, it will check its reference.
+
+### **12. pop() Method:**
+
+#### It removes the last element from an array and returns the removed element.
+
+### **13. push() Method:**
+
+#### It adds or pushes an element as the last element in an array.
+
+### **14. reverse() Method:**
+
+#### This method reverses the array elements.
+
+### **15. shift() Method:**
+
+#### It removes the first element from an array and returns the removed element.
+
+### **16. some() Method:**
+
+#### This method checks if any one of the elements in the array passes the test provided by the predicate function. If in any array index the test pass some method returns true else false. It just checks the element exists in an array. It returns as soon as the predicate function returns true.
+
+### **17. sort() Method:**
+
+#### This method sorts the array in ascending order(default behavior if compare function is not specified). This method mutates the original array.
+
+### **18. unshift() Method:**
+
+#### It adds or inserts an element at the starting position of an array.
