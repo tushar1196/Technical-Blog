@@ -28,6 +28,13 @@
 # The Document object
 ### The **document** object represents the DOM tree loaded in a window.
 
+#### Here is a representation of a portion of the DOM pointing to the head and body tags:
+
+<p align="center">
+<img src="https://flaviocopes.com/dom/dom-body-head.png" width="500" height="500" border="10"/>
+</p>
+
+
 #### <br> The Document object can be accessed from window.document, and since window is the global object, you can use the shortcut document object directly from the browser console, or in your JavaScript code.
 
 ## Most used API methods :-
@@ -40,7 +47,7 @@
 
 #### we can get the document title using **document.title**, and the URL using **document.URL**. The referrer is available in **document.referrer**, the domain in **document.domain**.
 
-### From the **document** object we can get the body and head Element nodes:
+### From the **document** object we can get the body and head Element nodes
 * #### document.documentElement: the Document node
 * #### document.body: the body Element node
 * #### document.head: the head Element node
@@ -51,10 +58,5 @@
 
 #### You can do much more, even get old school and fill your scripts with document.write(), a method that was used a lot back in the early days of JavaScript to interact with the pages.
 
-
-
-
-
-
-
-
+# Reference:-
+#### [flaviocopes.com (https://github.com/lifeparticle/The-Ultimate-Markdown-Cheat-Sheet)
