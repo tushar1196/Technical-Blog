@@ -56,7 +56,7 @@
 
 <img src="https://miro.medium.com/max/1416/1*_tc2tXfUOPcI2jGqCDzhPw.png"
      alt="Js helper method"
-     style="float: left; margin-center: 10px;" />
+     style="float: left; margin-center: 3px;" />
 
 
 
