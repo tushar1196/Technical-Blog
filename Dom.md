@@ -131,5 +131,5 @@
 ###### It adds or inserts an element at the starting position of an array
 
 ##### References
-1. [javatpint](https://www.javatpoint.com/document-object-model)
+1. [javatpoint](https://www.javatpoint.com/document-object-model)
 2. [geeksforgeeks](https://www.geeksforgeeks.org/dom-document-object-model/)
